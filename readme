@@ -1,2 +1,9 @@
 import maven project
 run the junit test case
+
+Pattern used :
+Singleton : SwitchRoom  is  single instance  it has two switch  left and  right . CrewRoomFactory also single instance .
+Factory:  CrewRoomFactory  responsible  for delivering objects crew members and  assign the crew  member to each room.
+Switch : functionality implemented using command pattern.
+Tallykeeper : implement using  observer pattern 
+Switch room made as thread safe.
